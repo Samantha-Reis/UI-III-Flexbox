@@ -79,11 +79,11 @@ body{
   
   h1{
 	font-size: 70px;
-	display: inline-block;
+	display: flexbox;
   }
   
   footer{
-	display: inline-block;
+	display: flexbox;
   
   }
   
@@ -98,7 +98,7 @@ body{
   }
   
   .top{
-	display: inline-block;
+	display: flexbox;
   }
   
   .bottom{
@@ -107,7 +107,7 @@ body{
   }
   
   .features, .about, .contact{
-	display: inline-block;
+	display: flexbox;
 	box-sizing: border-box;
 	padding-left: 0px;
 	padding-bottom: 0px;
@@ -116,7 +116,7 @@ body{
   }
   
   .services, .product, .vision{
-	display: inline-block;
+	display: flexbox;
 	box-sizing: border-box;
 	padding-left: 0px;
 	padding-bottom: 0px;
@@ -144,16 +144,16 @@ body{
 	text-align: center;
   }
   .contact{
-	display: inline-block;
+	display: flexbox;
   }
   footer{
-	display: inline-block;
+	display: flexbox;
 	font-size:20px;
 	text-align: center;
 	width:100%;
   }
   .IoD{
-	  display: inline-block;
+	  display: flexbox;
 	box-sizing: border-box;
 	padding-left: 200px;
 	padding-bottom: 0px;
@@ -161,7 +161,7 @@ body{
 	border: 1 px solid white;
   }
   .code {
-	  display: inline-block;
+	  display: flexbox;
 	  float: right;
 	  padding-top: 20px;
   }
@@ -178,8 +178,4 @@ body{
 	  font-size: 20px;
 	  padding: 20px;
   }
-  
-  .product{
-	width: 20%;
-  } 
   
