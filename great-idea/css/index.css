@@ -115,22 +115,6 @@ body{
 	border: 1 px solid white;
   }
   
-  .services, .product, .vision{
-	display: flexbox;
-	box-sizing: border-box;
-	padding-left: 0px;
-	padding-bottom: 0px;
-	border: 1 px solid white;
-	margin: 0 auto;
-	width: 30%;
-  }
-  .services{
-	float: left;
-  }
-  .vision{
-	float: right;
-  }
-  
   h2{
 	font-size: 60px;
   }
@@ -179,3 +163,25 @@ body{
 	  padding: 20px;
   }
   
+  .bottom{
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	box-sizing: border-box;
+  }
+
+  .kiddo{
+	display: flex;
+	justify-content: center;
+	width: 49%;
+	padding: 20px;
+	box-sizing: border-box;
+  }
+
+  .vision{
+	display: flexbox;
+	justify-content: center;
+	width: 49%;
+	padding: 20px;
+	box-sizing: border-box;
+  }
