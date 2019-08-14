@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flex */
 body{
 	background-color: white;
 	margin: 0 auto;
@@ -79,11 +79,11 @@ body{
   
   h1{
 	font-size: 70px;
-	display: flexbox;
+	display: flex;
   }
   
   footer{
-	display: flexbox;
+	display: flex;
   
   }
   
@@ -98,7 +98,7 @@ body{
   }
   
   .top{
-	display: flexbox;
+	display: flex;
   }
   
   .bottom{
@@ -107,7 +107,7 @@ body{
   }
   
   .features, .about, .contact{
-	display: flexbox;
+	display: flex;
 	box-sizing: border-box;
 	padding-left: 0px;
 	padding-bottom: 0px;
@@ -132,16 +132,16 @@ body{
 	  font-size: 35px;
   }
   .contact{
-	display: flexbox;
+	display: flex;
   }
   footer{
-	display: flexbox;
+	display: flex;
 	font-size:20px;
 	text-align: center;
 	width:100%;
   }
   .IoD{
-	  display: flexbox;
+	display: flex;
 	box-sizing: border-box;
 	padding-left: 200px;
 	padding-bottom: 0px;
@@ -149,7 +149,7 @@ body{
 	border: 1 px solid white;
   }
   .code {
-	  display: flexbox;
+	  display: flex;
 	  float: right;
 	  padding-top: 20px;
   }
@@ -159,9 +159,10 @@ body{
 	  text-align: center;
 	  padding: 0;
 	  margin: 0;
+	  
   }
   
-  nav, li{
+	.nav{
 	  display: inline-block;
 	  font-size: 20px;
 	  padding: 20px;
@@ -183,7 +184,7 @@ body{
   }
 
   .vision{
-	display: flexbox;
+	display: flex;
 	justify-content: center;
 	width: 49%;
 	padding: 20px;
@@ -193,21 +194,39 @@ body{
   .services-header-img{
 	  width: 100%;
   }
+  
   .big{
-	height: 75%;
-	width: 75%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: initial;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	justify-content: space-evenly;
+	padding-top: 30px;
+	padding-bottom: 30px;
   }
   
   .elements{
-  width: 40%;
-  height: 40%;
+  width: 43%;
   background-color:whitesmoke;
   border: 1px solid black;
-  margin: 3%;
+  padding: 10px;
+  }
+  
+   .some {
+	width: 43%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 70px;
   }
 
+  .sd{
+	  padding-bottom: 20px;
+}
+
+.services-info-img{
+	display: flex;
+	float: right;
+}
 
   
