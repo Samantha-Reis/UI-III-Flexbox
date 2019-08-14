@@ -134,8 +134,8 @@ body{
   .contact{
 	display: flex;
   }
-  footer{
-	display: flex;
+  footer, small{
+	display: inline-block;
 	font-size:20px;
 	text-align: center;
 	width:100%;
@@ -162,7 +162,7 @@ body{
 	  
   }
   
-	.nav{
+	li, nav{
 	  display: inline-block;
 	  font-size: 20px;
 	  padding: 20px;
@@ -228,5 +228,6 @@ body{
 	display: flex;
 	float: right;
 }
+
 
   
